@@ -1,0 +1,11 @@
+export { default as Dashboard } from "./Dashboard";
+export { default as Login } from "./Login";
+export { default as Navigation } from "./Navigation";
+export { default as NotFound } from "./Error/NotFound";
+export { default as AboutUs } from "./AboutUs";
+export {default as SignUp} from "./SignUp";
+export { default as Bookmark } from "./Bookmark";
+export { default as CreatePost } from "./Post/CreatePost";
+export {default as Footer} from "./Footer";
+export {default as Profile} from "./Profile";
+export { default as History } from "./History";

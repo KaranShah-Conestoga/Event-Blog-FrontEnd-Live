@@ -1,0 +1,59 @@
+.list-table {
+    thead tr th {
+        width: 12%;
+        text-align: center;
+
+        &:first-child {
+            width: 10%;
+        }
+
+        &:nth-child(2) {
+            width: 20%;
+        }
+
+        &:nth-child(3) {
+            width: 20%;
+        }
+
+        &:nth-child(4) {
+            width: 20%;
+        }
+
+        &:nth-child(5) {
+            width: 15%;
+        }
+    }
+
+    tbody tr td {
+        width: 12%;
+        text-align: center;
+
+        .color-code {
+            height: 40px;
+            width: 4px;
+            display: inline-block;
+            border-radius: 10px;
+            vertical-align: middle;
+        }
+
+        &:first-child {
+            width: 10%;
+        }
+
+        &:nth-child(2) {
+            width: 20%;
+        }
+
+        &:nth-child(3) {
+            width: 20%;
+        }
+
+        &:nth-child(4) {
+            width: 20%;
+        }
+
+        &:nth-child(5) {
+            width: 15%;
+        }
+    }
+}

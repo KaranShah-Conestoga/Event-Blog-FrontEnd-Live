@@ -1,0 +1,99 @@
+.createpost-div {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #f7f7f7;
+  padding: 35px;
+  border-radius: 20px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 6px black;
+
+}
+
+.jodit-workplace {
+  background-color: white;
+}
+
+.title {
+  // text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  // color: blue;
+  margin-bottom: 20px;
+
+
+  // background: url(//www.textures4photoshop.com/tex/thumbs/lava-magma-seamless-texture-free-download-70.jpg) no-repeat center center;
+  // background-size: cover;
+  // color: #fff;
+  // -webkit-text-fill-color: transparent;
+  // -webkit-background-clip: text;
+  // -moz-background-clip:text;
+  // background-clip:text; 
+  // font-family:Catamaran,sans-serif;
+  // font-size:3em;
+  // padding:0;
+  // margin:0;
+  // text-align:center;
+}
+
+.tag-container {
+  display: flex;
+  overflow: scroll;
+  width: 100%;
+  max-width: 100%;
+  padding-left: 14px;
+  border: 1px grey solid;
+  border-radius: 5px;
+  color: black;
+  margin-top: 10px;
+}
+
+.tag-container input {
+  width: 100%;
+  min-width: 50%;
+  border: none;
+  border-radius: 5px;
+  padding: 14px;
+  padding-left: 14px;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  margin: 7px 0;
+  margin-right: 10px;
+  padding: 0 10px;
+  padding-right: 5px;
+  border: 1px solid orange;
+  border-radius: 5px;
+  background-color: orange;
+  white-space: nowrap;
+  color: white;
+}
+.submit-cancel-btn{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+.create-update-btn {
+	margin-top: 23px;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	// justify-content: right;
+}
+.tag button {
+  display: flex;
+  padding: 6px;
+  border: none;
+  background-color: unset;
+  cursor: pointer;
+  color: white;
+}
+
+.status {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 45px;
+}

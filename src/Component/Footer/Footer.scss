@@ -1,0 +1,45 @@
+#footer {
+    background: url(../../Assets/Images/footer-bg.png);
+    padding: 3rem 0 1.5rem;
+    color: #fff;
+  }
+  #footer a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+  }
+  #footer form.newsletter {
+    position: relative;
+  }
+  #footer form.newsletter input[type="email"] {
+    background: transparent;
+    box-sizing: unset;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 10px;
+  }
+  #footer form.newsletter button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: transparent;
+    box-shadow: unset;
+    border: 0;
+  }
+  #footer form.newsletter button img {
+    width: 30px;
+    filter: invert(1);
+  }
+  #footer .copyright-bar {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid #aeaeae;
+  }
+  
+  .row.justify-content-between{
+    width: 100%;
+  }

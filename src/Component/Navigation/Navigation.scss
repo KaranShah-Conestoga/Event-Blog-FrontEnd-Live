@@ -1,0 +1,224 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  // margin-bottom: 40px;
+  padding: 0 35px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #d9d9d9;
+  z-index: 100;
+  background-color: white;
+  box-shadow: 0 0 10px -5px black;
+  background-image: url('../../Assets/Images/wave.svg');
+  background-size: contain;
+  object-fit: cover;
+  justify-content: space-between;
+
+  .logo {
+    width: 15%;
+  }
+
+  .noti-logout {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .notification {
+    z-index: 999999;
+  }
+
+  .nav-item {
+    // width: 85%;
+    display: flex;
+    align-items: center;
+    color: white;
+
+    ul {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 0;
+      margin-top: 0;
+
+      li {
+        text-decoration: none;
+        list-style: none;
+        padding: 20px;
+
+        a {
+          text-decoration: none;
+          color: black;
+          padding: 10px;
+          border-radius: 10px;
+          font-weight: 500;
+        }
+
+        .filter-search-input {
+          position: relative;
+
+          .search-btn {
+            position: absolute;
+            top: 46%;
+            transform: translateY(-50%);
+            left: 15px;
+            color: #50a7f0;
+            font-size: 20px;
+            padding: 0;
+            background: transparent;
+            margin: 0;
+            border: 0;
+          }
+
+          input {
+            padding-left: 45px;
+          }
+        }
+      }
+    }
+  }
+}
+
+ul {
+  li {
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+      text-decoration: none;
+      color: black;
+      padding: 10px;
+      border-radius: 10px;
+      font-weight: 500;
+    }
+  }
+}
+
+ul.MuiList-root.MuiList-padding.MuiMenu-list.css-6hp17o-MuiList-root-MuiMenu-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-notification {
+  nav.navbar {
+    padding: 0;
+
+    button {
+      padding: 19px;
+      background: url(../../Assets/Images/bell.svg) no-repeat;
+      background-position: 50% 50%;
+      background-size: 17px;
+      border: 1px solid #dcdce2;
+      border-radius: 8px;
+      position: relative;
+
+      &:focus,
+      &:focus-visible {
+        outline: none;
+        box-shadow: 0 0 0;
+      }
+
+      span {
+        display: none;
+      }
+
+    }
+  }
+}
+
+.notification-list {
+  ul {
+    margin: 0 0 15px;
+    padding: 0;
+    list-style: none;
+
+    li {
+      display: inline-block;
+      padding: 12px 28px;
+      border-top: 1px solid #f1f2f7;
+      border-bottom: 1px solid #f1f2f7;
+      width: 100%;
+
+      .title-closer {
+        display: flex;
+        vertical-align: middle;
+        align-items: center;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 0 0 20px;
+
+        h4 {
+          font-size: 15px;
+          font-weight: var(--app-font-regular);
+          line-height: 22px;
+          width: 85%;
+          margin: 0;
+        }
+
+        .btn-close {
+          opacity: 0.3;
+          padding: 0;
+          margin: 0;
+          width: 13px;
+          height: 13px;
+          background-size: 1.2rem;
+          transition: all 0.3s ease-out;
+
+          &:hover {
+            opacity: 1;
+          }
+        }
+      }
+
+      .timeandstarter {
+        display: flex;
+        vertical-align: middle;
+        align-items: center;
+        justify-content: space-between;
+
+        .time {
+          display: flex;
+          vertical-align: middle;
+          align-items: center;
+          font-size: 14px;
+          font-weight: var(--app-font-regular);
+          color: var(--app-dark-gray);
+          line-height: 20px;
+
+          img {
+            width: 16px;
+            margin-right: 8px;
+          }
+        }
+
+        .notification-open-link {
+          text-decoration: none;
+          font-size: 13px;
+          font-weight: var(--app-font-bold);
+          line-height: 20px;
+          text-transform: uppercase;
+          color: #00a36b;
+
+          &:hover {
+            color: var(--app-dark-gray);
+          }
+        }
+      }
+    }
+
+    li.recent {
+      background-color: #f5f7fb;
+
+      h4 {
+        font-weight: var(--app-font-medium);
+      }
+    }
+  }
+}
